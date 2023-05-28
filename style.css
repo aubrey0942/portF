@@ -1,0 +1,525 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;	
+	padding-bottom: 50px;
+	scroll-behavior: smooth;
+
+
+}
+nav{
+	display:absolute;
+	align-items: center;
+	padding: 1px;
+	background: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 70%);
+	display: flex;
+	justify-content: space-between;
+	position: sticky;
+	top: 0% ;
+	z-index: 99;
+	height: 80px;
+
+
+
+	
+}
+.logo{
+	color: white;
+	font-size: 30px;
+	letter-spacing: 10px;
+	cursor: pointer;
+
+	
+}
+.logo span{
+	color:orange;
+}
+html{
+	scroll-behavior: smooth;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+nav ul li a{
+  	color: white;
+  	text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.content a{
+	color: white;
+	text-decoration-line: underline;
+  text-decoration-color: transparent;
+  text-transform: capitalize;
+  font-weight: bold;
+ float:left ;
+ position:absolute;
+}
+.content .btn {
+position: absolute;
+bottom: 220px;
+left:190px;
+font-size: 20px;
+background: none repeat scroll 0 0 orange;
+ margin-left: -50px;
+
+    position: relative;
+
+}
+.content h1{
+text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    white 29%,
+    orange 67%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+     
+      text-align: left;
+	font-weight: bold;
+	color: white;
+	font-size: 40px;
+	padding-top:100px;
+	margin-top: -450px;
+  }
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.content h5{
+	color: orange ;
+}
+.content h4{
+	color:#C5C5C5;
+
+}
+nav ul li a:hover{
+	color: orange;
+	transition: .4s;
+}
+.content a:hover{
+	color:black;
+	transition: .4s;
+
+	}
+	.socials a i{
+margin-right: 700px;
+		padding-top:1px;
+margin-bottom: -30px;
+letter-spacing: 20px;
+align-items: right;
+align-content: center;
+
+
+}
+.socials i{
+	color: #C5C5C5;
+}
+.socials i:hover{
+	color: orange;
+	cursor: pointer;
+
+	}
+.btn{
+background-color: orange;
+border: 10px solid transparent;
+font-weight: bold;
+border-radius: 8px;
+padding: 8px;
+transition: .4s
+
+}
+.btn:hover{
+	transform: scale(1.2);
+	background-color: white;
+}
+.content{
+	text-align: left;
+	padding-left:900px;
+	color: white;
+	font-size: 25px;
+	margin-top:35px;
+	margin-top: -350px;
+}
+.user{
+	padding-right: : 2000px;
+	margin-left: -10px;
+		padding-top:5px;
+margin-bottom: -50px;
+color: #C5C5C5;
+
+
+}
+h4{
+	color: whitesmoke;
+	font-size: 25px;
+	padding-left: 50px;
+}
+h3{
+	padding-left: 130px;
+	margin-bottom: 120px;
+	font-size: 30px;
+	
+
+}
+.obri{
+
+  color: #fff;
+  background: url(ube.jpg) no-repeat ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(ube.jpg);
+  	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(ube.jpg);
+ 	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	height: 500px;
+  
+  }
+.About{
+	width: 100%;
+	padding: 50px 0px;
+	background-color: black;
+
+
+
+}
+
+.About img{
+	display: flex;
+	position: relative;
+	
+
+}
+.top-image{
+
+	left:0;
+	top:0;
+	opacity: 1;
+
+}
+.top-image:hover{
+	opacity: 0;
+	transition: all 0.3s ease;
+}
+.About-text{
+	width:650px;
+	font-size: 50px;
+	color: black;
+	left: 100px;
+
+}
+
+.main{
+	width: 530px;
+	max-width: 95%;
+	margin:0 auto;
+	display: flex;
+	align-items: left;
+	justify-content: space-around; 
+}
+.about-text h2{
+
+	color: white ;
+	font-size:75px;
+	text-transform: capitalize;
+	margin-bottom: -15px;
+	text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    white 29%,
+    orange 67%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+     
+      text-align: left;
+	font-weight: bold;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+
+	
+}
+.about-text h5{
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin-bottom: -15px;
+	text-transform: capitalize;
+	color: white;
+	padding-right: 500px;
+	margin-bottom: -30px
+	padding-left: 30px
+	
+}
+.about-text h2 span{
+		color:orange;
+	
+
+}
+.about-text p span{
+		color:orange;
+		font-size: 25px;
+		padding: 5px
+		font-weight:bold;
+		padding-right: 500px;
+	margin-bottom: -50px
+	padding-left: 30px
+
+}
+.about-text p{
+	color: #C5C5C5;
+	letter-spacing: 3px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-left: -200px;
+
+	
+}
+
+/* projects */
+
+
+.main2{
+	width: 1130px;
+}
+.main2{
+	width: 1130px;
+	max-width: 95%;
+	margin:0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around; 
+}
+.projects-text h2{
+	color: white ;
+	text-transform: capitalize;
+	margin-bottom: -35px;
+	font-size: 75px;
+	font-weight: bold;
+	color: white ;
+	text-transform: capitalize;
+
+	text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    white 29%,
+    orange 67%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+     
+      text-align: left;
+	font-weight: bold;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.projects-text h5{
+	letter-spacing: 2px;
+	font-size: 25px;
+	margin-bottom: -15px;
+	text-transform: capitalize;
+	color: white;
+
+}
+.projects-text h2 span{
+		color:orange;
+
+}
+.projects-text h5 span{
+		color:orange;
+
+
+}
+.projects-text a{
+	color: white;
+	text-decoration-color: transparent;
+	font-size: 25px;
+
+}
+.projects-text a i{
+	color:orange;
+}
+.projects-text a:hover{
+	color:orange;
+	transition: .4s;
+}
+.info{
+	color: white;
+	font-size: 55px;	
+	padding-right: 150px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  list-style-type: none;
+
+}
+.info span{
+	color: orange;
+}
+.info ul li{
+	font-size:25px;
+	padding-left: 10px;
+	color:#C5C5C5;
+
+}
+
+.info .person{
+	list-style-type: none;
+padding:0px 50px;
+}
+.info .person p{
+	font-size: 75px;
+	font-weight: bold;
+	color: white ;
+	text-transform: capitalize;
+
+	text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    white 29%,
+    orange 67%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+     
+      text-align: left;
+	font-weight: bold;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+
+
+}
+.info .person p li{
+	padding-right: 100px;
+}
+.resumi{
+	color: white;
+	font-size: 65px;
+	text-align: center;
+	padding-bottom: 50px;
+
+}
+
+
+.resumi h2 span{
+	color: orange;
+		color: white ;
+	font-size:75px;
+	text-transform: capitalize;
+	margin-bottom: -15px;
+	text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    white 29%,
+    orange 67%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+     
+      text-align: left;
+	font-weight: bold;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	}
+@keyframes textclip {
+  to {
+    background-position: 150% center;
+  }
+}
+
+}
+.resumi h1{
+	font-size:40px;
+	margin-left:830px;
+}
+.resumi h1 span{
+	
+	color:orange;
+}
+.card {
+	text-align: left;
+	vertical-align: middle;
+	padding-left: 50px;
+
+}
+.card i{
+	padding-left: 125px;
+	font-size: 50px;
+	color: orange;
+}
+.card p{
+	font-size: 30px;
+	padding-left: 80px;
+}
+#myVideo {
+ 
+  right: 0;
+  bottom: 0;
+  min-width: 70%; 
+  min-height: 40%;
+
+}
+

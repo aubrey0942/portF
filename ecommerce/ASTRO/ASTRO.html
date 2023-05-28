@@ -1,0 +1,225 @@
+<!DOCTYPE html?
+   <html lang="eng">
+<head>
+   <script rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js">
+   </script>
+
+    <title> Astro </title>
+    <link rel="icon" type="image/png" href="navicon.png"> 
+ </head>
+ <body>
+   <nav class="navbar">     
+     <a href="file:///C:/Users/Hueprint/Documents/ecommerce/index.html">Home<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"></a>
+     <i class="fas fa-shopping-cart"></i>
+</ul>
+</nav>
+
+         <div>
+            <h1 class="pheading"> Our Latest Products</h1> 
+</div>
+
+<div class="products">
+   <!-- card1 start -->
+   <div class="card">
+      <div class="img"><img src="produce1.png" alt=""></div>
+      <div class="desc">New Arrival</div>
+      <div class="title">Astro RED VILLAIN shirt</div>
+      <div class="box">
+         <div class="price">P500.00</div>
+         <button class="btn"><a href="file:///C:/Users/Hueprint/Documents/ecommerce/Order.html">Order Now</a></button>
+      </div>
+   </div>
+         <!-- card1 end -->
+
+         <!-- card2 start -->
+   <div class="card">
+      <div class="img"><img src="produce2.png" alt=""></div>
+      <div class="desc">New Arrival</div>
+      <div class="title">Astro VELVET PIPE shirt</div>
+      <div class="box">
+         <div class="price">P500.00</div>
+         <button class="btn"><a href="file:///C:/Users/Hueprint/Documents/ecommerce/Order.html">Order Now</a></button>
+      </div>
+   </div>
+         <!-- card2 end -->
+
+         <!-- card3 start -->
+   <div class="card">
+      <div class="img"><img src="produce3.png" alt=""></div>
+      <div class="desc">New Arrival</div>
+      <div class="title">Astro UMBRA-STR shirt</div>
+      <div class="box">
+         <div class="price">P500.00</div>
+         <button class="btn"><a href="file:///C:/Users/Hueprint/Documents/ecommerce/Order.html">Order Now</a></button>
+      </div>
+   </div>
+         <!-- card4 end -->
+
+         <!-- card5 start -->
+   <div class="card">
+      <div class="img"><img src="produce4.png" alt=""></div>
+      <div class="desc">New Arrival</div>
+      <div class="title">Astro NAUTBOOK shirt</div>
+      <div class="box">
+         <div class="price">P500.00</div>
+         <button class="btn"><a href="file:///C:/Users/Hueprint/Documents/ecommerce/Order.html">Order Now</a></button>
+      </div>
+   </div>
+         <!-- card5 end -->
+
+         <!-- card6 start -->
+   <div class="card">
+      <div class="img"><img src="produce5.png" alt=""></div>
+      <div class="desc">New Arrival</div>
+      <div class="title">Astro CYBER-GRN shirt</div>
+      <div class="box">
+         <div class="price">P500.00</div>
+         <button class="btn"><a href="file:///C:/Users/Hueprint/Documents/ecommerce/Order.html">Order Now</a></button>
+      </div>
+   </div>
+         <!-- card6 end -->
+
+         <!-- card7 start -->
+   <div class="card">
+      <div class="img"><img src="produce6.jpg" alt=""></div>
+      <div class="desc">New Arrival</div>
+      <div class="title">Astro SPACER-DC shirt</div>
+      <div class="box">
+         <div class="price">P500.00</div>
+         <button class="btn"><a href="file:///C:/Users/Hueprint/Documents/ecommerce/Order.html">Order Now</a></button>
+      </div>
+   </div>
+         <!-- card7 end -->
+      
+        
+      </div>
+   </div>
+</div>
+ 
+
+
+</body>
+
+<style>
+    {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+
+}
+body{
+	height: 100%;
+	
+}
+/*header */
+.header-image {
+background-image: url(ASTRo.png);
+
+}
+.navbar a{
+  
+   padding-bottom: 20px;
+	padding:5px 10px;
+	border: none;
+	color: black;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor:pointer;
+   position:relative; top:75px;
+   margin-left: 1200px;
+   margin-bottom: -50px;
+   margin-top: 130px;
+   font-weight: bold;
+}
+  .navbar i{
+   position:relative; top:75px;
+   color:#f63e4e;
+   
+  }
+.pheading{
+	text-align:  center;
+	
+	color:#fd6561;
+	font-weight: bold;
+	font-size: 50px;
+}
+/* Products */
+.sec{
+	padding:10px 5%;
+	color: whitesmoke;
+}
+
+    
+.products{
+	display: grid;
+padding-right: 250px;
+
+grid-template-columns:
+  [linename1] 430px [linename2]
+  repeat(auto-fit, [linename3 linename4] 430px)
+  90px;
+  padding-left:2%;
+  
+  
+
+  
+}
+.products .card{
+	width: 400px;
+	background: #black;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	padding:10px;
+	margin-bottom: 10px;
+	font-family: sans-serif;
+    align-items:center;
+   
+
+
+}
+.products .card img{
+	height: 200px;
+	width: 100%;
+}
+.products .card .desc{
+	padding: 5px 150px;
+	opacity: 0.8;
+	font-weight: bold;
+
+}
+.products .card .title{
+	padding: 5px 50px;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+.products .card .box .price{
+	
+	font-size: 30px;
+	font-weight: bold;
+	color: #fd6561;
+}
+.products .card .box{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	
+	}
+.products .card .box .btn{
+	font-size: 13px;
+	color:#f63e4e;
+	padding:10px 18px;
+	font-weight:900;
+	border:1px solid;
+}
+.products .card .box .btn:hover{
+	cursor: pointer;
+	background-color: #f63e4e;
+	color: white;
+}
+
+.btn a{
+	color: #f63e4e;
+}
+
+</style>
